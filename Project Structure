@@ -1,0 +1,20 @@
+# Project Structure
+/drone_control_system
+├── src/
+│   ├── main.cpp
+│   ├── sensors/
+│   │   ├── barometric.cpp
+│   │   ├── barometric.h
+│   │   ├── optical_flow.cpp
+│   │   └── optical_flow.h
+│   ├── controllers/
+│   │   ├── pid.cpp
+│   │   ├── pid.h
+│   │   ├── altitude_hold.cpp
+│   │   └── altitude_hold.h
+│   └── utils/
+│       ├── sensor_fusion.cpp
+│       └── sensor_fusion.h
+├── include/
+├── tests/
+└── README.md
